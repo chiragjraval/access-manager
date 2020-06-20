@@ -1,12 +1,12 @@
-package sh.lucas.manager.access.helper;
+package sh.locus.manager.access.helper;
 
 import java.text.MessageFormat;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.ParseException;
 
-import sh.lucas.manager.access.dto.ExecutionResult;
-import sh.lucas.manager.access.manager.AccessManager;
+import sh.locus.manager.access.dto.ExecutionResult;
+import sh.locus.manager.access.manager.AccessManager;
 
 public class VerifyCommandExecutor extends AbstractCommandExecutor {
 

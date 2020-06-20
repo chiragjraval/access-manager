@@ -1,10 +1,10 @@
-package sh.lucas.manager.access.helper;
+package sh.locus.manager.access.helper;
 
 import java.util.Objects;
 
-import sh.lucas.manager.access.dto.ExecutionResult;
-import sh.lucas.manager.access.manager.AccessManager;
-import sh.lucas.manager.access.manager.DefaultAccessManager;
+import sh.locus.manager.access.dto.ExecutionResult;
+import sh.locus.manager.access.manager.AccessManager;
+import sh.locus.manager.access.manager.DefaultAccessManager;
 
 public class CommandHelper {
 

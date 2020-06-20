@@ -1,4 +1,4 @@
-package sh.lucas.manager.access.dao;
+package sh.locus.manager.access.dao;
 
 import java.util.EnumMap;
 import java.util.HashMap;
@@ -6,10 +6,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import sh.lucas.manager.access.constants.DaoConstants;
-import sh.lucas.manager.access.entity.ActionType;
-import sh.lucas.manager.access.entity.Environment;
-import sh.lucas.manager.access.entity.Role;
+import sh.locus.manager.access.constants.DaoConstants;
+import sh.locus.manager.access.entity.ActionType;
+import sh.locus.manager.access.entity.Environment;
+import sh.locus.manager.access.entity.Role;
 
 public class RoleDao implements BaseDao<String, Role> {
 

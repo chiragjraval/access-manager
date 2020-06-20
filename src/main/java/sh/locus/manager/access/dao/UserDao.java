@@ -1,4 +1,4 @@
-package sh.lucas.manager.access.dao;
+package sh.locus.manager.access.dao;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import sh.lucas.manager.access.constants.DaoConstants;
-import sh.lucas.manager.access.entity.User;
+import sh.locus.manager.access.constants.DaoConstants;
+import sh.locus.manager.access.entity.User;
 
 public class UserDao implements BaseDao<String, User> {
 
@@ -15,7 +15,7 @@ public class UserDao implements BaseDao<String, User> {
 	
 	public UserDao() {
 		users.put(DaoConstants.USER_CHIRAG, new User(DaoConstants.USER_CHIRAG, new ArrayList<>()));
-		users.put(DaoConstants.USER_LUCAS, new User(DaoConstants.USER_LUCAS, new ArrayList<>()));
+		users.put(DaoConstants.USER_LOCUS, new User(DaoConstants.USER_LOCUS, new ArrayList<>()));
 	}
 
 	public User create(User user) {

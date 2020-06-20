@@ -1,17 +1,17 @@
-package sh.lucas.manager.access.constants;
+package sh.locus.manager.access.constants;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import sh.lucas.manager.access.entity.ActionType;
-import sh.lucas.manager.access.entity.Environment;
+import sh.locus.manager.access.entity.ActionType;
+import sh.locus.manager.access.entity.Environment;
 
 public interface DaoConstants {
 
 	// User Constants
 	String USER_CHIRAG = "chirag";
-	String USER_LUCAS = "lucas";
+	String USER_LOCUS = "locus";
 
 	// Role Constants
 	String ROLE_MEMBER = "member";
@@ -34,15 +34,15 @@ public interface DaoConstants {
 	List<ActionType> ROLE_ADMIN_ENV_PROD_ALLOWED_ACTIONS = Arrays.asList(ActionType.READ, ActionType.ADD, ActionType.WRITE, ActionType.DELETE);
 	
 	// Resource Constants
-	String RESOURCE_DEV_DB_ID = "lucasDevDb";
-	String RESOURCE_DEV_DB_DESC = "Lucas DEV DB";
+	String RESOURCE_DEV_DB_ID = "locusDevDb";
+	String RESOURCE_DEV_DB_DESC = "Locus DEV DB";
 	Environment RESOURCE_DEV_DB_ENV = Environment.DEV;
 	
-	String RESOURCE_QA_DB_ID = "lucasQaDb";
-	String RESOURCE_QA_DB_DESC = "Lucas QA DB";
+	String RESOURCE_QA_DB_ID = "locusQaDb";
+	String RESOURCE_QA_DB_DESC = "Locus QA DB";
 	Environment RESOURCE_QA_DB_ENV = Environment.QA;
 	
-	String RESOURCE_PROD_DB_ID = "lucasProdDb";
-	String RESOURCE_PROD_DB_DESC = "Lucas PROD DB";
+	String RESOURCE_PROD_DB_ID = "locusProdDb";
+	String RESOURCE_PROD_DB_DESC = "Locus PROD DB";
 	Environment RESOURCE_PROD_DB_ENV = Environment.PROD;
 }

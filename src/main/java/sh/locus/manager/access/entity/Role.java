@@ -1,4 +1,4 @@
-package sh.lucas.manager.access.entity;
+package sh.locus.manager.access.entity;
 
 import java.util.List;
 import java.util.Map;

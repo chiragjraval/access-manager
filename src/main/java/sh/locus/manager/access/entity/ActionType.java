@@ -1,4 +1,4 @@
-package sh.lucas.manager.access.entity;
+package sh.locus.manager.access.entity;
 
 public enum ActionType {
 	ADD,

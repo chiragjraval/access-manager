@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>sh.lucas.manager.access</groupId>
+	<groupId>sh.locus.manager.access</groupId>
 	<artifactId>access-manager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -46,7 +46,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>sh.lucas.manager.access.AccessManagerApp</mainClass>
+							<mainClass>sh.locus.manager.access.AccessManagerApp</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>

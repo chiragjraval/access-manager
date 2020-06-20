@@ -1,8 +1,8 @@
-package sh.lucas.manager.access.helper;
+package sh.locus.manager.access.helper;
 
 import org.apache.commons.cli.ParseException;
 
-import sh.lucas.manager.access.dto.ExecutionResult;
+import sh.locus.manager.access.dto.ExecutionResult;
 
 public interface CommandExecutor {
 

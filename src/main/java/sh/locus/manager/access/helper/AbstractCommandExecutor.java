@@ -1,4 +1,4 @@
-package sh.lucas.manager.access.helper;
+package sh.locus.manager.access.helper;
 
 import org.apache.commons.cli.BasicParser;
 import org.apache.commons.cli.CommandLineParser;
@@ -6,7 +6,7 @@ import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Option;
 import org.apache.commons.cli.Options;
 
-import sh.lucas.manager.access.manager.AccessManager;
+import sh.locus.manager.access.manager.AccessManager;
 
 public abstract class AbstractCommandExecutor implements CommandExecutor {
 

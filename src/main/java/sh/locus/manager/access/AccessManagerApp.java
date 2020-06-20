@@ -1,11 +1,11 @@
-package sh.lucas.manager.access;
+package sh.locus.manager.access;
 
 import java.util.Scanner;
 
 import org.apache.commons.lang3.*;
 
-import sh.lucas.manager.access.dto.ExecutionResult;
-import sh.lucas.manager.access.helper.CommandHelper;
+import sh.locus.manager.access.dto.ExecutionResult;
+import sh.locus.manager.access.helper.CommandHelper;
 
 public class AccessManagerApp {
 	

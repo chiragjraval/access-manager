@@ -1,4 +1,4 @@
-package sh.lucas.manager.access.dao;
+package sh.locus.manager.access.dao;
 
 import java.util.List;
 

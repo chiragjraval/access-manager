@@ -32,7 +32,7 @@ Below Data points are defined in DaoConstants class and are loaded in memory by 
 
 # Users
   - chirag
-  - lucas
+  - locus
 
 # Roles
   - member
@@ -49,9 +49,9 @@ Below Data points are defined in DaoConstants class and are loaded in memory by 
     - PROD (READ, ADD, WRITE, DELETE)
  
 # Resources
-  - lucasDevDb (DEV)
-  - lucasQaDb (QA)
-  - lucasProdDb (PROD)
+  - locusDevDb (DEV)
+  - locusQaDb (QA)
+  - locusProdDb (PROD)
 
 # Sample execution
 ```bash
@@ -70,29 +70,29 @@ usage: verify
  -resource,--resource <arg>       <Resource ID>
  -user,--user <arg>               <User ID>
 
-$verify -user chirag -actiontype WRITE -resource lucasDevDb
-User chirag cannot take WRITE action on resource lucasDevDb
+$verify -user chirag -actiontype WRITE -resource locusDevDb
+User chirag cannot take WRITE action on resource locusDevDb
 
-$verify -user chirag -actiontype WRITE -resource lucasQaDb
-User chirag cannot take WRITE action on resource lucasQaDb
+$verify -user chirag -actiontype WRITE -resource locusQaDb
+User chirag cannot take WRITE action on resource locusQaDb
 
 $grant -user chirag -role member -role mgr
 Roles [member, mgr] granted to chirag
 
-$verify -user chirag -actiontype WRITE -resource lucasDevDb
-User chirag can take WRITE action on resource lucasDevDb
+$verify -user chirag -actiontype WRITE -resource locusDevDb
+User chirag can take WRITE action on resource locusDevDb
 
-$verify -user chirag -actiontype WRITE -resource lucasQaDb
-User chirag can take WRITE action on resource lucasQaDb
+$verify -user chirag -actiontype WRITE -resource locusQaDb
+User chirag can take WRITE action on resource locusQaDb
 
 $revoke -user chirag -role mgr
 Roles [mgr] revoked for chirag
 
-$verify -user chirag -actiontype WRITE -resource lucasDevDb
-User chirag can take WRITE action on resource lucasDevDb
+$verify -user chirag -actiontype WRITE -resource locusDevDb
+User chirag can take WRITE action on resource locusDevDb
 
-$verify -user chirag -actiontype WRITE -resource lucasQaDb
-User chirag cannot take WRITE action on resource lucasQaDb
+$verify -user chirag -actiontype WRITE -resource locusQaDb
+User chirag cannot take WRITE action on resource locusQaDb
 
 $exit
 Exit requested

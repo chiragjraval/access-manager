@@ -1,4 +1,4 @@
-package sh.lucas.manager.access.manager;
+package sh.locus.manager.access.manager;
 
 import java.util.HashSet;
 import java.util.List;
@@ -7,14 +7,14 @@ import java.util.Set;
 
 import org.apache.commons.lang3.EnumUtils;
 
-import sh.lucas.manager.access.dao.ResourceDao;
-import sh.lucas.manager.access.dao.RoleDao;
-import sh.lucas.manager.access.dao.UserDao;
-import sh.lucas.manager.access.entity.ActionType;
-import sh.lucas.manager.access.entity.Environment;
-import sh.lucas.manager.access.entity.Resource;
-import sh.lucas.manager.access.entity.Role;
-import sh.lucas.manager.access.entity.User;
+import sh.locus.manager.access.dao.ResourceDao;
+import sh.locus.manager.access.dao.RoleDao;
+import sh.locus.manager.access.dao.UserDao;
+import sh.locus.manager.access.entity.ActionType;
+import sh.locus.manager.access.entity.Environment;
+import sh.locus.manager.access.entity.Resource;
+import sh.locus.manager.access.entity.Role;
+import sh.locus.manager.access.entity.User;
 
 public class DefaultAccessManager implements AccessManager {
 

@@ -1,4 +1,4 @@
-package sh.lucas.manager.access.dto;
+package sh.locus.manager.access.dto;
 
 public class ExecutionResult {
 

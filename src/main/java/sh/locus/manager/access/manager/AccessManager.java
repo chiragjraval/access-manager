@@ -1,4 +1,4 @@
-package sh.lucas.manager.access.manager;
+package sh.locus.manager.access.manager;
 
 import java.util.List;
 
