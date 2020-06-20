@@ -12,12 +12,23 @@ System defines 5 entity classes User, Role, Resource, ActionType, Environment
   - System will support CRUD operations on User, Role and Resource entities. DAOs are implemented for same. (CRUD operations are not exposed through CLI). Please check UserDao, RoleDao and ResourceDao.
   
 # Supported Commands
-  - grant -user <userId> -role <roleId1> -role <roleId2>...
-  - revoke -user <userId> -role <roleId1> -role <roleId2>...
-  - verify -user <userId> -actiontype <actionType> -resource <resourceId>
+  - grant -user userId -role roleId1 -role roleId2...
+  - revoke -user userId> -role roleId1 -role roleId2...
+  - verify -user userId -actiontype actionType -resource resourceId
 
 For demonstration purpose some of the data points are built-in the system.
 Below Data points are defined in DaoConstants class and are loaded in memory by individual constructors of UserDao, RoleDao and ResourceDao to simulate data storage access.
+
+# ActionTypes
+  - READ
+  - ADD
+  - WRITE
+  - DELETE
+  
+# Environments
+  - DEV
+  - QA
+  - PROD
 
 # Users
   - chirag
@@ -25,22 +36,22 @@ Below Data points are defined in DaoConstants class and are loaded in memory by 
 
 # Roles
   - member
-    - Environment.DEV (READ, ADD, WRITE, DELETE)
-    - Environment.QA (READ)
-    - Environment.PROD (No Actions Allowed)
+    - DEV (READ, ADD, WRITE, DELETE)
+    - QA (READ)
+    - PROD (No Actions Allowed)
   - mgr
-    - Environment.DEV (READ, ADD, WRITE, DELETE)
-    - Environment.QA (READ, ADD, WRITE)
-    - Environment.PROD (READ)
+    - DEV (READ, ADD, WRITE, DELETE)
+    - QA (READ, ADD, WRITE)
+    - PROD (READ)
   - admin
-    - Environment.DEV (READ, ADD, WRITE, DELETE)
-    - Environment.QA (READ, ADD, WRITE, DELETE)
-    - Environment.PROD (READ, ADD, WRITE, DELETE)
+    - DEV (READ, ADD, WRITE, DELETE)
+    - QA (READ, ADD, WRITE, DELETE)
+    - PROD (READ, ADD, WRITE, DELETE)
  
 # Resources
-  - lucasDevDb (Environment.DEV)
-  - lucasQaDb (Environment.QA)
-  - lucasProdDb (Environment.PROD)
+  - lucasDevDb (DEV)
+  - lucasQaDb (QA)
+  - lucasProdDb (PROD)
 
 # Sample execution
 ```bash
