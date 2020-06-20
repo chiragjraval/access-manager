@@ -15,6 +15,8 @@ public class AccessManagerApp {
 		boolean exitRequested = false;
 
 		while (!exitRequested) {
+			System.out.println("");
+			System.out.print("$");
 			String userCommand = scanner.nextLine();
 
 			if (StringUtils.isNotBlank(userCommand)) {
